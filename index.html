@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+
+   <!-- Start WOWSlider.com HEAD section -->
+   <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+   <script type="text/javascript" src="engine1/jquery.js"></script>
+   <!-- End WOWSlider.com HEAD section -->
+
+   <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Contaminación en mi comunidad</title>
+  
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app4.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+ 
+  <script src ="phonegap.js"></script><!--necesario*/-->
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+
+<body onLoad="MM_preloadImages('imagenes/bonito.jpg','imagenes/reciclaje2.png','imagenes/comunidad5.png')">
+
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Contaminación en mi comunidad</h1>
+  </div> 
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>MI COMUNIDAD</h1>
+    <div>
+     <p>Esta es mi comunidad</p>
+     <br> 
+    </div>
+    <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','imagenes/comunidad5.png',1)"><img src="imagenes/comunidad1.jpg" width="400" height="200" id="Image34"></a>
+    </div>
+    </div>
+    </div>
+    
+
+  <div>
+  	<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Definición</h2>
+       <p>¿Qué es la contaminación?</p>	
+      </a>
+     </li>
+
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Tipos de contaminación</h2>
+       <p>Se muestran los tipos de contaminación que existen</p>
+      </a> 
+     </li>
+    
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Consecuencias</h2>
+       <p>Demostración de las consecuencias</p>
+      </a>     	
+     </li>
+
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Reciclaje</h2>
+       <p>¿Qué es? y ¿Comó se clasifica?</p>	
+      </a>     	
+     </li> 
+
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Medidas para combatirla en tu comunidad</h2>
+       <p>Muestra varias maneras de combatir contra la contaminación</p>	
+      </a>     	
+     </li>   		
+  	</ul>
+  </div>
+  <div dara-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <div>
+    <h4>Aplicación cuatro</h4>
+    <h4>Jose Alejo Montes Lopez</h4>
+   </div>
+  </div>
+ </div>
+ 
+ <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>MI COMUNIDAD</h1>
+    <div>
+     <p>Esta es mi comunidad</p>
+     <br> 
+    </div>
+    <div>
+    <img src="imagenes/icon.png" width="46" height="46">
+    </div>
+    </div>
+    </div>
+
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Definición</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   	<h2>Se entiende por contaminación a aquellas incorporaciónes al medio ambiente de agentes nocivos en cualquier estado y de origen tanto biológico, como físico y químico peligrosos para la salud de los seres humanos, animales y plantas.</h2>
+    <div align="center"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/basura1.jpg',1)"><img src="imagenes/basura2.jpg" width="60%" height="60%" id="Image29"></a></div>
+    <a href="http://www.phsserkonten.com/sanidad-ambiental/contaminacion-ambiental/">Mas información</a>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   	<img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <h4>Aplicación cuatro, JAML</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Tipos de contaminación</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+
+    <h2>Del aire</h2> 
+    <p>Es la incorporación a la atmósfera de gases tóxicos y elementos que transforman la composición natural del aire que respiramos</p>
+    <h2>Del agua</h2> 
+    <p>Se produce por el vertido de sustancias contaminantes tóxicas y nocivas, como productos químicos, aguas fecales, residuos industriales, y microorganismos, que inhabilitan el agua como recurso básico para la vida</p>
+    <h2>Del suelo</h2> 
+    <p>mediante la incorporación de sustancias y materias extrañas procedentes de basuras domésticas, residuos tóxicos industriales, pesticidas, lodos, restos o envases plásticos y metálicos, escombros, y otra serie de elementos</p>
+    <h2>Biológica</h2>
+   	<p>Los virus, hongos y otros parásitos.</p>
+   	<h2>Física</h2>
+   	<p>Es la producida por variaciones bruscas de temperaturas, radiaciones electromagnéticas, o nucleares, intensidad luminosa, sonora y vibraciones, entre otros.</p>
+   	<h2>Química</h2>
+   	<p>Es la que se produce por el vertido de elementos químicos y compuestos de estos.</p>
+   	<h2>Visual</h2>
+   	<p>Producida por el impacto negativo en el entorno generado por edificación masiva o con ubicaciones desafortunadas, desertización, o almacenamiento indiscriminado de residuos</p>
+    
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/basura1.jpg" alt="Suelo" title="Suelo" id="wows1_0"/></li>
+		<li><img src="data1/images/basura2.jpg" alt="Ecosistema" title="Ecosistema" id="wows1_1"/></li>
+		<li><img src="data1/images/basura3.jpg" alt="Aire" title="Aire" id="wows1_2"/></li>
+		<li><img src="data1/images/basura4.jpg" alt="Agua" title="Agua" id="wows1_3"/></li>
+		<li><img src="data1/images/basura5.jpg" alt="Visual" title="Visual" id="wows1_4"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/basura6.jpg" alt="Quimica" title="Quimica" id="wows1_5"/></a></li>
+		<li><img src="data1/images/biologica.jpg" alt="Biologica" title="Biologica" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Suelo"><span><img src="data1/tooltips/agua.jpg" alt="Suelo"/>1</span></a>
+		<a href="#" title="Ecosistema"><span><img src="data1/tooltips/aire.jpg" alt="Ecosistema"/>2</span></a>
+		<a href="#" title="Aire"><span><img src="data1/tooltips/biologica.jpg" alt="Aire"/>3</span></a>
+		<a href="#" title="Agua"><span><img src="data1/tooltips/fisicos.jpg" alt="Agua"/>4</span></a>
+		<a href="#" title="Visual"><span><img src="data1/tooltips/quimica.jpg" alt="Visual"/>5</span></a>
+		<a href="#" title="Quimica"><span><img src="data1/tooltips/suelo.jpg" alt="Quimica"/>6</span></a>
+		<a href="#" title="Biologica"><span><img src="data1/tooltips/visual.png" alt="Biologica"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">css slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+   </div>
+
+   </div>
+  </div>
+  
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   	<img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <h4>Aplicación cuatro, JAML</h4>
+  </div>
+  
+  
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   	<img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <h4>Aplicación cuatro, JAML</h4>
+  </div>
+ 
+ 
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Consecuencias</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+  
+    <p>Entre las causas de la contaminación más graves está el envenenamiento de especies marinas y terrestres y el consiguiente peligro de intoxicación de los alimentos procedentes de la agricultura, pesca y ganadería necesarios para abastecer a una población mundial en constante aumento.</p>
+
+    <p>El aumento constante de la temperatura media del planeta, es otra de las graves consecuencias de la contaminación del aire.</p>
+
+    <p>Aumento del nivel de los mares como efecto del deshielo de los casquetes polares, con desaparición de grandes extensiones geográficas.</p>
+
+    <p>Desaparición de la capa de ozono que protege a la tierra de las radiaciones directas del sol por efecto de los agentes contaminantes en el aire, con resultados de cambio climático, desertización de grandes zonas, subida de temperaturas anuales, desaparición de las placas de hielo en los casquetes polares, aumento de fenómenos meteorológicos de violencia incontrolable.</p>
+
+   </div>
+  </div>
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/con1.jpg" alt="Envenenamiento de especies " title="Envenenamiento de especies " id="wows2_0"/></li>
+		<li><img src="data2/images/con2.jpg" alt="Aumento de la temperatura" title="Aumento de la temperatura" id="wows2_1"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data2/images/con3.jpg" alt="css slider" title="Aumento del nivel de los mares" id="wows2_2"/></a></li>
+		<li><img src="data2/images/con4.jpg" alt="Desaparición de la capa de ozono" title="Desaparición de la capa de ozono" id="wows2_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Envenenamiento de especies "><span><img src="data2/tooltips/con1.jpg" alt="Envenenamiento de especies "/>1</span></a>
+		<a href="#" title="Aumento de la temperatura"><span><img src="data2/tooltips/con2.jpg" alt="Aumento de la temperatura"/>2</span></a>
+		<a href="#" title="Aumento del nivel de los mares"><span><img src="data2/tooltips/con3.jpg" alt="Aumento del nivel de los mares"/>3</span></a>
+		<a href="#" title="Desaparición de la capa de ozono"><span><img src="data2/tooltips/con4.jpg" alt="Desaparición de la capa de ozono"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">css slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   </div>
+  
+
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   	<img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <h4>Aplicación cuatro, JAML</h4>
+  </div>
+ </div>
+ </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   	<img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <h4>Aplicación cuatro, JAML</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Reciclaje</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   	<h2>¿Qué es?</h2>
+   	<p>consiste en obtener una nueva materia prima o producto, mediante un proceso fisicoquímico o mecánico, a partir de productos y materiales ya en desuso o utilizados. De esta forma, conseguimos alargar el ciclo de vida de un producto, ahorrando materiales y beneficiando al medio ambiente al generar menos residuos.</p>
+    <h2>¿Comó se clasifica?</h2>
+     <h3>Contenedor azul: papel y cartón</h3>
+     <p>Qué debemos depositar:
+      Periódicos, libros, sobres, revistas y otros papeles.
+      Bolsas y envases de papel, cajas de cartón, que deben plegarse antes de depositarlas.
+      Hueveras de cartón.
+      <br>
+      Qué NO debemos depositar:
+      Envases mixtos de papel y plástico, bricks.
+      Papeles muy sucios, como los de cocina usados o manteles de papel.
+      Corcho blanco </p>
+     <h3>Contenedor amarillo: envases y plásticos</h3>
+     <p>Qué debemos depositar:
+      Envases tipo brick (leche, zumos…).
+      Botes, latas y envases metálicos.
+      Botellas, garrafas, tapones y otros envases de plástico.
+      Aerosoles y sprays.
+      Papel de aluminio y film.
+      Bandejas de carne o fruta de corcho blanco (forespan o porexpan).
+      Redes de la fruta o patatas.
+      Guantes de goma (“de fregar”).
+      <br>
+      Qué NO debemos depositar:
+      Botes de pintura o productos químicos.</p>
+      <h3>Contenedor verde: cristal y vidrio</h3>
+      <p>Qué debemos depositar:
+       Botellas de vidrio.
+       Tarros y frascos de conservas.
+       Jarras y copas de vidrio.
+       Qué NO debemos depositar:
+       <br>
+       Tapones de botellas y botes.
+       Fluorescentes y lámparas.
+       Espejos o cristales de ventanas.
+       Botes de medicamentos.
+       Botes que hayan contenido productos tóxicos o peligrosos</p>
+      <h3>Contenedor marrón: orgánica</h3>
+      <p>Qué debemos depositar:
+Restos de comida.
+Huesos y pieles de frutas y hortalizas.
+Posos y filtros de café.
+Sobres de infusiones.
+Cáscaras de marisco y moluscos.
+Tapones de corcho.
+Cáscaras de huevo.
+Papel de cocina y servilletas de papel utilizadas.
+Restos de plantas y flores.
+Cáscaras de frutos secos.
+Palillos.
+Cerillas.
+Qué NO debemos depositar:
+<br>
+Aceite de cocina.
+Residuos de barrer.
+Colillas.
+Pañales y productos de higiene femenina.
+Excrementos de animales</p>
+      <h3>Contenedor verde oscuro o gris: resto o desechos</h3>
+      <p>Qué debemos depositar:
+
+Residuos de barrer.
+Colillas.
+Pañales y productos de higiene femenina.
+Cuchillas de afeitar
+Cepillos de dientes.
+Chicles.
+Bolsas de aspiradora
+Fregonas y bayetas
+Excrementos de animales.
+Qué NO debemos depositar:
+
+Juguetes.
+Pilas.
+Ropa</p>
+
+    <img src="imagenes/comunidad2.jpg" width="400" height="200">
+ 
+</div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   	<img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <h4>Aplicación cuatro, JAML</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Medidas para combatirla en tu comunidad</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   	<p>Caminar o manejar bicicleta siempre que sea posible</p>
+   	<p>Hacerle un mantenimiento periódico al auto</p>
+   	<p>Apagar las luces y los aparatos electrónicos cuando no estés en la habitación.</p>
+   	<p>Utilizar una menor cantidad de productos químicos.</p>
+   	<p>Desechar correctamente los residuos tóxicos</p>
+   	<p>Conservar el agua.</p>
+   </div>
+   
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','imagenes/comunidad3.PNG',1)"><img src="imagenes/comunidad4.PNG" width="60%" height="60%" id="Image30"></a> 
+</div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+   	<img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <h4>Aplicación cuatro, JAML</h4>
+  </div>
+ </div>
+
+</body>
+</html>
